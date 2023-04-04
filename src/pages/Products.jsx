@@ -1,3 +1,5 @@
+import ProductCard from "../Components/ProductCard";
+
 function Products() {
     const products = [
         {
@@ -34,6 +36,9 @@ function Products() {
     return (
         <>
             <h2>PRODUCTS</h2>
+            <section>
+                { products.map((product, i) => <ProductCard info={product} key={i} />) }
+            </section>
         </>
     );
 }

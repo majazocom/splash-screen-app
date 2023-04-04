@@ -1,6 +1,8 @@
-function ProductCard() {
+function ProductCard({info}) {
     return ( 
-        <article></article>
+        <article>
+            <h3>{info.title}</h3>
+        </article>
      );
 }
 
