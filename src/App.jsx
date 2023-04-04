@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <header>
-        <h1>Vår SPA</h1>
+        <h1>Book app</h1>
       </header>
       <main>
         <Routes>
